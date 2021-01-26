@@ -15,10 +15,10 @@ $(function()
     tProgress = $('#current-time'), 
     tTime = $('#track-length'), 
     seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, 
-    albums = ['Wake Up','Moving','oblivion','Pastlives','naive unprepared child','More for us','The Story Never Ends'], // add your song name here
-    trackNames = ['moow','I eat plant for a living','rufi-o','sapientdream','zach farache','Puma Tooth','Lauv'], //Add your artist here
-    albumArtworks = ['_1','_2','_3','_4','_5','_6','_7'], //add _[order] here
-    trackUrl = ['https://github.com/b4iterdev/Music-Player/raw/main/Musics/Wake_Up_moow.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/Moving.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/oblivion.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/pastlives.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/naive_unprepared_child.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/More_for_us.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/The-story-never-ends.mp3'], //add your song link here
+    albums = ['Wake Up','Moving','oblivion','Pastlives','naive unprepared child','More for us','The Story Never Ends','I Need a girl','Chẳng thể tìm được em'], // add your song name here
+    trackNames = ['moow','I eat plant for a living','rufi-o','sapientdream','zach farache','Puma Tooth','Lauv','Lee','PhucXp ft. FreakD'], //Add your artist here
+    albumArtworks = ['_1','_2','_3','_4','_5','_6','_7','_8','_9'], //add _[order] here
+    trackUrl = ['https://github.com/b4iterdev/Music-Player/raw/main/Musics/Wake_Up_moow.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/Moving.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/oblivion.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/pastlives.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/naive_unprepared_child.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/More_for_us.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/The-story-never-ends.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/I_Need_a_Girl.mp3','https://github.com/b4iterdev/Music-Player/raw/main/Musics/Chang_The_Tim_Duoc_Em.mp3'], //add your song link here
     playPreviousTrackButton = $('#play-previous'), 
     playNextTrackButton = $('#play-next'), 
     currIndex = -1;
